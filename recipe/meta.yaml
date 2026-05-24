@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyhardisp/pyhardisp-{{ version }}.tar.gz
-  sha256: 137f61a27d5b990816cc49e5f7db351508b76132c163a4f1a292c7f79ea712d1
+  sha256: ec633597fd36694175fc14b41a7ae2fb8e266b82429c8e67f26b73bcde25831e
 
 build:
   noarch: python
